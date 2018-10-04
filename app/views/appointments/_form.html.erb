@@ -12,18 +12,13 @@
   <% end %>
 
   <div class="field">
-    <%= form.label :string %>
-    <%= form.text_field :string, id: :appointment_string %>
-  </div>
-
-  <div class="field">
     <%= form.label :title %>
     <%= form.text_field :title, id: :appointment_title %>
   </div>
 
   <div class="field">
-    <%= form.label :text %>
-    <%= form.text_field :text, id: :appointment_text %>
+    <%= form.label :notes %>
+    <%= form.text_area :notes, id: :appointment_notes %>
   </div>
 
   <div class="field">
